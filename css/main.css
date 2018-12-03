@@ -800,4 +800,5 @@ textarea:active, textarea:hover, textarea:focus, textarea {
     .form {margin-right: 20px;}
     .contact-item {display: none;}
     .port-block {padding: 100px;}
+    .tel {padding-top: 30%;}
 }
