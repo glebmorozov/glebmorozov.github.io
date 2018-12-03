@@ -22,7 +22,7 @@
 	<header class="header" id="header">
 		<div class="container-fluid full-screen">
 			<div class="row">
-				<div class="col-4">
+				<div class="d-none d-xl-block col-xl-4">
 					<div class="navbar">
 						<ul class="navbar-menu d-flex justify-content-between">
 							<li class="navbar-menu__item">
@@ -37,14 +37,20 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-4">
+				<div class="col-2 d-xl-none">
+					<div class="tel">
+						<p class="phone-nun">8 (912) 124-92-12</p>
+						<p class="phone-nun">8 (212) 451-12-51</p>
+					</div>
+				</div>
+				<div class="col-8 col-xl-4">
 					<div class="d-flex justify-content-center logo-block">
 						<p class="logo-text">Dirty Joe</p>
 						<img class="logo" src="img/logo.png" alt="">
 						<p class="logo-text">Tattoo</p>
 					</div>
 				</div>
-				<div class="col-4">
+				<div class="d-none d-xl-block col-xl-4">
 					<div class="society">
 						<ul class="society-menu d-flex justify-content-end">
 							<li class="society-menu__icon">
@@ -62,7 +68,29 @@
 						</ul>
 					</div>
 				</div>
+				<div class="col-2 d-flex justify-content-center d-xl-none">
+                   	<button class="menu-open">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
 			</div>
+			<div class="row mobile-bg full-screen">
+                		<div class="col-12 d-flex justify-content-end">
+                			<div class="mobile-nav">
+                				<ul class="mobile-nav__menu">
+                					<li class="mobile-nav__menu-item">
+                						<a href="#masters" class="scroll-to">Мастера</a>
+                					</li>
+                					<li class="mobile-nav__menu-item">
+                						<a href="#portfolio" class="scroll-to">Портфолио</a>
+                					</li>
+                					<li class="mobile-nav__menu-item">
+                						<a href="#path-tattoo" class="scroll-to">О нас</a>
+                					</li>
+                				</ul>
+                			</div>
+                		</div>
+                	</div>
 		</div>
 	</header>
 	
@@ -227,7 +255,7 @@
 	<section class="portfolio" id="portfolio">
 		<div class="container-fluid full-screen">
 			<div class="row">
-				<div class="col-12 m-auto">
+				<div class="col-12">
 					<div class="big-slider">
 						<div class="d-flex justify-content-between">
 							<div class="port-block">
@@ -309,7 +337,7 @@
 		<div class="container-fluid full">
 			<h2 class="contact-title">Контакты</h2>
 			<div class="row">
-				<div class="col-4">
+				<div class="col-5 col-xl-4">
 					<ul class="contact-list">
 						<li class="contact-list__item d-flex justify-content-start">
 							<i class="fas fa-map-marker-alt contact-icon"></i>
@@ -333,7 +361,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-4">
+				<div class="col-7 col-xl-4">
 					<div class="form d-flex justify-content-center">
 						<form action="mail.php" method="POST" name="commentform" id="commentform" class="form-offer">
 							<h3 class="form-title">Запись</h3>
@@ -359,7 +387,7 @@
 						</form>
 					</div>
 				</div>
-				<div class="col-4">
+				<div class="d-none d-xl-block col-xl-4">
 					<div class="ya-map">
 						<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af3af24d2122f28bf6ec95165842784924310048ac7296487962d26da3c311b73&amp;width=400&amp;height=275&amp;lang=ru_RU&amp;scroll=true"></script>
 					</div>

@@ -2,6 +2,9 @@
 
 
 $(document).ready(function(){
+	$('.menu-open').click(function(){
+       $('.mobile-nav').fadeToggle();
+	});
 	$('a.scroll-to').on('click',function () { 
 		var elementClick = $(this).attr("href");
 		var elementArr = elementClick.split("#");

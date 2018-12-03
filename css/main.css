@@ -643,10 +643,67 @@ textarea:active, textarea:hover, textarea:focus, textarea {
 	
 }
 
-
 .footer-logo {
 	margin-top: 20px;
 }
+
+
+/* ----- Mobile ----- */
+
+
+.menu-open {
+    background: none;
+    color: #fff;
+    border: 0;
+    font-size: 50px;
+    outline: none;
+
+}
+
+.menu-open:active, .menu-open:hover, .menu-open:before {
+  outline: none;
+}
+
+.mobile-nav{
+    display: none;
+  text-align: center;
+  font-family: 'Geometria';
+    position: absolute;
+    background: #fff;
+    border-radius: 10px 0 0 10px; 
+    font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.mobile-nav__menu-item {
+  padding: 40px;  
+}
+
+.mobile-nav__menu-item a {
+  color: #000;
+}
+
+.mobile-bg {
+  z-index: 1;
+  position: relative;
+}
+
+.tel {
+  padding: 10px 0 0 10px;
+  font-size: 15px;
+  font-family: 'Geometria';
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
 
 @font-face {
 	font-family: 'RoadRadio';
